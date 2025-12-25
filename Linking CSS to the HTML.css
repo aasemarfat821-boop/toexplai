@@ -1,0 +1,20 @@
+        body{
+            height: 100vh; /* لازم ندي الجسم ارتفاع كامل عشان يظهر التدرج */
+            margin: 0;     /* إزالة المسافات الافتراضية */
+            background-color: rgb(42, 128, 167);}
+            .address{text-align: center; color: aliceblue; }
+            .qq{color: azure; font-weight: bold;font-size: .8cm;}
+            .ww{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15);}
+            .ee{color: azure; font-weight: bold;font-size: .8cm;}
+            .rr{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15);}
+            .tt{margin-left: 1cm;}
+            .yy{color: azure; font-weight: bold;font-size: .8cm;}
+            .uu{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .ii{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .oo{color: azure; font-weight: bold;font-size: .8cm;}
+            .pp{margin-left: 1cm;}
+            .aa{color: azure; font-weight: bold;font-size: .8cm;}
+            .md{color: azure; font-weight: bold;font-size: .8cm;text-align: center;}
+        .img_img{display: block; margin: auto; border-radius: 1cm;}
+        .qq2{border-radius: 2cm; margin-left: 5cm; background-color: rgb(42, 154, 1); color: azure;font-size: 1.1cm;
+            display: block; margin: auto; margin-top: .5cm; margin-bottom: 1.3cm;cursor: pointer;    }

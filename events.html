@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+
+    <h1 class="address">JavaScript Events</h1>
+    <hr>
+
+    <h2 class="qq">:يعني إيه Events</h2>
+    <p class="ww">
+        Events هي الأحداث اللي بتحصل في الصفحة زي الضغط على زرار، تحريك الماوس، أو كتابة نص.
+    </p>
+
+    <h2 class="rr">:أمثلة على Events</h2>
+    <p class="uu">
+        - click → لما المستخدم يضغط على زرار  
+        - mouseover → لما الماوس يعدي على عنصر  
+        - keydown → لما المستخدم يضغط مفتاح على الكيبورد
+    </p>
+
+    <h2 class="ii">:مثال click Event</h2>
+    <button onclick="showMessage()">اضغط هنا</button>
+    <p class="oo" id="msg">رسالة ستظهر بعد الضغط على الزرار</p>
+
+    <h2 class="pp">:شرح الكود</h2>
+    <p class="aa">
+        استخدمنا event "onclick" على الزرار  
+        وعند الضغط، الدالة showMessage() غيرت النص
+    </p>
+
+    <script>
+        function showMessage(){
+            document.getElementById("msg").innerHTML = "تم الضغط على الزرار!";
+        }
+    </script>
+        
+    <button class="qq2" onclick="window.location.href='https://youtu.be/SkrRttJBKQM?si=s4ycPN5WYL7Pxe7J'"
+    >
+    Watch the YouTube video tutorial</button>
+    <hr>
+</body>
+</html> 

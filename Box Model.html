@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model</title>
+    <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(42, 128, 167);
+        }
+        .title{text-align: center; color: aliceblue;}
+        .section-title{color: azure; font-weight: bold; font-size: .8cm; margin-left: 1cm;}
+        .section-text{margin-left: 1cm; color: rgb(255, 255, 255); font-size: .5cm; background-color: rgba(0, 0, 0, 0.15);}
+        .md{color: azure; font-weight: bold;font-size: .8cm;text-align: center;}
+        .img_img{display: block; margin: auto; border-radius: 1cm;}
+        .qq2{border-radius: 2cm; margin-left: 5cm; background-color: rgb(2, 117, 25); color: azure;font-size: 1.1cm;
+            display: block; margin: auto; margin-top: .5cm; margin-bottom: 1.3cm;cursor: pointer;    }
+    </style>
+</head>
+<body>
+    <h1 class="title">CSS Box Model</h1>
+    <hr>
+
+    <h2 class="section-title">ما هو Box Model؟</h2>
+    <p class="section-text">
+        Box Model هو النموذج الذي يحدد كيفية تعامل CSS مع العناصر في الصفحة.<br>
+        كل عنصر في HTML يُعتبر صندوق يحتوي على محتوى، حواف، حشوة وحدود.
+    </p>
+
+    <hr>
+
+    <h2 class="section-title">مكونات Box Model</h2>
+    <p class="section-text">
+        1. Content: المحتوى الفعلي للنص أو الصورة.<br>
+        2. Padding: المسافة بين المحتوى والحدود.<br>
+        3. Border: الحد المحيط بالعناصر.<br>
+        4. Margin: المسافة بين الصندوق والعناصر الأخرى.
+    </p>
+    <h2 class="md">📦 مثال كامل على CSS Box Model</h2>
+        <img class="img_img" src="imgs/Screenshot 2025-12-17 175948.png" alt="">
+            <hr>
+
+
+    <h2 class="section-title">مثال عملي</h2>
+    <p class="section-text">
+        div { width: 200px; padding: 10px; border: 2px solid black; margin: 15px; }
+    </p>
+    <button class="qq2" onclick="window.location.href='https://youtu.be/2f3MEkllP9Q?si=Hlb1r20b2vWU3vVD'"
+    >
+    Watch the YouTube video tutorial</button>
+    <hr>
+</body>
+</html>
+

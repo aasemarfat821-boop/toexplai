@@ -1,0 +1,12 @@
+body{
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(42, 128, 167);
+        }
+        .title{text-align: center; color: aliceblue;}
+        .section-title{color: azure; font-weight: bold; font-size: .8cm; margin-left: 1cm;}
+        .section-text{margin-left: 1cm; color: rgb(255, 255, 255); font-size: .5cm; background-color: rgba(0, 0, 0, 0.15);}
+        .md{color: azure; font-weight: bold;font-size: .8cm;text-align: center;}
+        .img_img{display: block; margin: auto; border-radius: 1cm;}
+        .qq2{border-radius: 2cm; margin-left: 5cm; background-color: rgb(2, 117, 25); color: azure;font-size: 1.1cm;
+            display: block; margin: auto; margin-top: .5cm; margin-bottom: 1.3cm;cursor: pointer;    }

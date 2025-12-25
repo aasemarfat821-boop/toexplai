@@ -1,0 +1,243 @@
+        body{
+            height: 100vh; /* لازم ندي الجسم ارتفاع كامل عشان يظهر التدرج */
+            margin: 0;     /* إزالة المسافات الافتراضية */
+            background-color: rgb(42, 128, 167);}
+        .address{color:rgb(255, 255, 255); text-align: center; font-size:1cm; font-weight: bold;}
+        .address2{text-align: center; font-family: 'Roboto', sans-serif; font-size: 2cm;color: beige;}
+        .p1{font-size: .9cm; color:ghostwhite;}
+        .p2{font-size: .9cm; color:ghostwhite;}
+        .img1{margin-bottom: 4cm;}
+        .addrs_ol{color: rgb(255, 255, 255);}
+        ._address{font-weight: bold; font-size: 25px; color: rgb(242, 249, 251);margin-left: 1cm;}
+        .bu1{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu1::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu2{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu2::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu3{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu3::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu4{margin-left: 3.5cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu4::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu5{margin-left: 2.8cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu5::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .final{font-weight: bold; font-size: 25px; color: rgb(242, 249, 251); margin-left: 2.5cm;}
+        .bu7{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu7::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu8{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu8::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu9{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu9::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu10{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu10::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .bu11{margin-left: 1cm;
+                cursor: pointer;
+                font-size: .7cm;
+                border-radius: 1cm;
+                background-color: orange;
+                color: aliceblue;
+                border: none; /*يعني إلغاء الإطار تمامًا اللي بيبقى حوالين العنصر.*/
+                padding: 12px 35px;
+                position: relative; /*يعني إن العنصر يفضل في مكانه الطبيعي*/
+                overflow: hidden; /*إخفاء أي جزء يطلع برا حدود العنصر.*/
+                z-index: 1 /*بتحدد مين فوق ومين تحت لما عناصر تبقى راكبة فوق بعض.*/}
+/* اللون اللي بيطلع من ورا */
+        .bu11::before{
+                content: "";
+                position: absolute; /*بيطلع من مكانه الطبيعي*/
+                top: -50%;left: -50%;width: 200%;height: 200%;/*التحركات بالنسبه ل الصفحه كلها*/
+        background: linear-gradient(45deg,/*درجة الزاويه*/
+                red,orange,yellow,red);
+        animation: move 3s linear infinite;
+        z-index: -1;}
+/* حركة اللون */
+        @keyframes move{0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}}
+        .video{margin-left: 6cm; margin-top: 2cm;}

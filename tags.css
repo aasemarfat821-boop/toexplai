@@ -1,0 +1,20 @@
+
+        body{
+            height: 100vh; /* لازم ندي الجسم ارتفاع كامل عشان يظهر التدرج */
+            margin: 0;     /* إزالة المسافات الافتراضية */
+            background-color: rgb(42, 128, 167);}
+            .address{text-align: center; color: aliceblue; }
+            .a11{color: azure; font-weight: bold;font-size: .8cm;}
+            .a1{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15);}
+            .a22{color: azure; font-weight: bold;font-size: .8cm;}
+            .a2{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .a33{color: azure; font-weight: bold;font-size: .8cm;}
+            .a3{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .a44{color: rgb(255, 255, 255); font-weight: bold;font-size: .8cm;}
+            .a4{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .a55{ color: aliceblue ; text-align: center;}
+            .a5{margin-left:4cm }
+            .qwe{margin-left: 6.5cm; margin-top: 2cm;}
+            .qq2{border-radius: 2cm; margin-left: 5cm; background-color: blue; color: azure;font-size: 1.1cm;
+                display: block; margin: auto; margin-top: .5cm; margin-bottom: 1.3cm;
+            cursor: pointer;    }

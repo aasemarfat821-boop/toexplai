@@ -1,0 +1,23 @@
+body{height: 100vh; /* لازم ندي الجسم ارتفاع كامل عشان يظهر التدرج */
+            margin: 0;     /* إزالة المسافات الافتراضية */
+            background-color: rgb(42, 128, 167);}
+            .address{text-align: center; color: aliceblue;}
+            .qq{color: azure; font-weight: bold;font-size: .8cm; margin-left: 1cm;}
+            .ww{margin-left: 1cm; color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .ee{color: azure; font-weight: bold;font-size: .8cm; margin-left: 1cm;}
+            .rr{margin-left: 1cm; color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .tt{color: azure; font-weight: bold;font-size: .8cm; margin-left: 1cm;}
+            .yy{margin-left: 1cm; color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .uu{color: azure; font-weight: bold;font-size: .8cm; margin-left: 1cm;}
+            .ii{margin-left: 1cm; color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .oo{color: azure; font-weight: bold;font-size: .8cm; margin-left: 1cm;}
+            .pp{margin-left: 1cm; color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .aa{color: azure; font-weight: bold;font-size: .8cm; margin-left: 1cm;}
+            .ss{display: block; margin: auto;}
+            .dd{color: azure; font-weight: bold;font-size: .8cm; margin-left: 1cm;}
+            .ff{margin-left: 1cm;}
+            .md{color: azure; font-weight: bold;font-size: .8cm;text-align: center;}
+
+            .qq2{border-radius: 2cm; margin-left: 5cm; background-color:  rgb(255, 208, 0); color: azure;font-size: 1.1cm;
+            display: block; margin: auto; margin-top: .5cm; margin-bottom: 1.3cm;
+        cursor: pointer;    }

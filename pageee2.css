@@ -1,0 +1,31 @@
+
+        body{height: 100vh; /* لازم ندي الجسم ارتفاع كامل عشان يظهر التدرج */
+            margin: 0;     /* إزالة المسافات الافتراضية */
+            background-color: rgb(42, 128, 167);}
+            .address{text-align: center; color: aliceblue;}
+            .ad1{color: azure; font-weight: bold;font-size: .8cm;}
+            .add1{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .ad2{color: azure; font-weight: bold;font-size: .8cm;}
+            .add2{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .ad3{color: azure; font-weight: bold;font-size: .8cm;}
+            .add3{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .ad4{text-align: center; color: azure; font-weight: bold;font-size: .8cm; }
+            .addre{text-align: center; color: aliceblue}
+            .addree{text-align: center; color: aliceblue}
+            .ad11{color: azure; font-weight: bold;font-size: .8cm;}
+            .add11{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .ad21{color: azure; font-weight: bold;font-size: .8cm;}
+            .add21{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .ad31{color: azure; font-weight: bold;font-size: .8cm;}
+            .add31{color: rgb(255, 255, 255);font-size: .5cm; background-color: rgba(0, 0, 0, 0.15)}
+            .fin{text-align: center; color: aliceblue}
+            .fin1{margin-left: 2.8cm;}
+            .qq{text-align: center; color: aliceblue;}
+            .add4{margin-left: 3cm;}
+            .ee{text-align: center; color: aliceblue;}
+            .ww{margin-left: 1.5cm;}
+            .qwe{margin-left: 6.5cm; margin-top: .5cm;}
+            .qwd{margin-left: 6.5cm; margin-top: .5cm;}
+            .qq2{border-radius: 2cm; margin-left: 5cm; background-color: blue; color: azure;font-size: 1.1cm;
+                display: block; margin: auto; margin-top: .5cm; margin-bottom: 1.3cm;cursor: pointer;    }
+            

@@ -1,0 +1,69 @@
+        body{background: linear-gradient(90deg, rgb(106, 119, 181), rgb(20, 82, 216));}
+        .scho{text-align: center; font-size: 2cm; color: aliceblue;}
+        .scho_name{text-align: center;font-size: 1.5cm; color: azure;}
+        .html{ color: cornsilk; margin-left: 5cm; font-size: 1cm;}
+        .but_1{
+    border-radius: 1cm;                       /* الزوايا مدوّرة */
+    font-size: 1cm;                            /* حجم الخط */
+    background: linear-gradient(45deg, rgb(3,123,67), #2ecc71, #27ae60, rgb(3,123,67)); /* تدرج لوني */
+    background-size: 400% 400%;               /* عشان نقدر نحرك الخلفية */
+    color: azure;                             /* لون النص */
+    margin-left: 4.8cm;                        /* المسافة من الشمال */
+    cursor: pointer;                           /* شكل المؤشر */
+    border: none;                              /* إزالة الإطار */
+    padding: 15px 40px;                        /* مسافات داخل الزرار */
+    animation: gradientMove 5s ease infinite;  /* الحركة المستمرة */
+}
+
+/* حركة التدرج اللوني */
+@keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+}
+
+        .but_2{
+    border-radius: 1cm;                       /* الزوايا مدوّرة */
+    font-size: 1cm;                            /* حجم الخط */
+    background: linear-gradient(45deg, rgb(3,123,67), #2ecc71, #27ae60, rgb(3,123,67)); /* تدرج لوني */
+    background-size: 400% 400%;               /* عشان نقدر نحرك الخلفية */
+    color: azure;                             /* لون النص */
+    margin-left: 5cm;                        /* المسافة من الشمال */
+    cursor: pointer;                           /* شكل المؤشر */
+    border: none;                              /* إزالة الإطار */
+    padding: 15px 40px;                        /* مسافات داخل الزرار */
+    animation: gradientMove 5s ease infinite;  /* الحركة المستمرة */
+}
+
+/* حركة التدرج اللوني */
+@keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+}
+
+        .but_3 {
+    border-radius: 1cm;                       /* الزوايا مدوّرة */
+    font-size: 1cm;                            /* حجم الخط */
+    background: linear-gradient(45deg, rgb(3,123,67), #2ecc71, #27ae60, rgb(3,123,67)); /* تدرج لوني */
+    background-size: 400% 400%;               /* عشان نقدر نحرك الخلفية */
+    color: azure;                             /* لون النص */
+    margin-left: 4.6cm;                        /* المسافة من الشمال */
+    cursor: pointer;                           /* شكل المؤشر */
+    border: none;                              /* إزالة الإطار */
+    padding: 15px 40px;                        /* مسافات داخل الزرار */
+    animation: gradientMove 5s ease infinite;  /* الحركة المستمرة */
+}
+
+/* حركة التدرج اللوني */
+@keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+}
+
+        .rul{text-align: center; font-size: 1cm; color:azure;}
+        .finsh{text-align: center;color:beige; font-size: 2cm; font-family: 'Roboto', sans-serif}
+        .qq{margin-left: 6.5cm;}
+        .ww{margin-left: 9cm;}
+        .ee{margin-left: 8.5cm;}
